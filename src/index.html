@@ -3,23 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parcel - The app</title>
+    <title>Delay search JavaScript</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
   <body>
     <div class="app">
-      <header class="app-header">
-        <img src="./assets/images/logo.svg" class="app-logo" alt="logo" />
-        <p>Edit <code>index.html</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://css-tricks.com/where-do-you-learn-html-css-in-2019/"
-          target="_blank"
-        >
-          Learn HTML/CSS
-        </a>
-      </header>
+      <div class="app__content">
+        <div class="search__timer">
+          <input class="timeout" id="search-timeout" type="number" value="700" placeholder="Enter time delay">
+        </div>
+        <div class="search__content">
+          <input id="search-input" type="text" placeholder="Anything you want...">
+        </div>
+        <p>Your keyword: "<span id="keyword"></span>"</p>
+        <p>Typing in the input box above, you can see that nothing is outputted until no key is pressed for <strong id="timer"></strong> ms.</p>
+        <h2>Play on CodePen</h2>
+        <div>
+          <iframe scrolling="no" title="Delay search JavaScript" src="https://codepen.io/cunguyendev/embed/wvzqqJB?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+            See the Pen <a href='https://codepen.io/cunguyendev/pen/wvzqqJB'>Delay search JavaScript</a> by Cư Nguyễn
+            (<a href='https://codepen.io/cunguyendev'>@cunguyendev</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+        </div>
+        <a class="github" href="https://github.com/cunguyendev/delay-search-javascript" target="_blank">💕 View on the GitHub 💕</a>
+      </div>
     </div>
   </body>
 

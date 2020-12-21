@@ -1,10 +1,10 @@
-# Base app with Parcel
+# Delay search JavaScript
 
 Create an app about HTML/CSS/JS with Parcel (Web application bundle)
 
 Author: Cu Nguyen &lt;[cunguyen.dev@gmail.com](cnguyen.dev@gmail.com)&gt;
 
-Deploy to Netlify: [https://parcel-base-app.netlify.app/](https://parcel-base-app.netlify.app/)
+Deploy to Netlify: [https://delay-search-javascript.netlify.app/](https://delay-search-javascript.netlify.app/)
 
 ## Requirements
 
